@@ -1,0 +1,45 @@
+#+TITLE: DIAGRAM CHASER
+#+AUTHOR: PILLET BASILE
+#+STARTUP: indent
+
+* Presentation
+** Visual
+A grid where each point can be set in one of the following states
+- '0' null and non-exact a priori
+- '-' non-null and exact in the row
+- '|' non-null and exact in the column
+- '+' non-null and exact in both direction
+- '@' non-null and non-exact a priori
+
+Each segment between adjacent points represent a map and can be set to
+- ' ' non-existant
+- '->' directed map
+- 'c->' injective map
+- '->>' surjective map
+- '~' isomorphism
+
+Remark: Everything is supposed commutative
+
+*** Exemple
+
+ 0 -> 0 -> - -> + -> @ -> 0
+      |         | 
+      v         v     
+ 0 -> + -> - -> + -> 0
+      |    |    |
+      v    v    v
+ 0 -> + -> + -> + -> 0
+      |    |    |
+      v    v    v
+      0    0    0
+
+
+** Features
+- Construct maps between points when they exist
+- Construct kernell and cokernell, shows vanishing
+- Show isomorphisms
+- Implement actual diagram chasing
+
+* Implementation
+- HTML + CSS + script ?
+- Text-file + Ocaml (ou Lisp ou prolog) ?
