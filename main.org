@@ -22,6 +22,8 @@ Remark: Everything is supposed commutative
 
 *** Exemple
 
+#+BEGIN_SRC plain
+
  0 -> 0 -> - -> + -> @ -> 0
       |         | 
       v         v     
@@ -33,6 +35,7 @@ Remark: Everything is supposed commutative
       v    v    v
       0    0    0
 
+#+END_SRC
 
 ** Features
 - Construct maps between points when they exist
@@ -41,5 +44,36 @@ Remark: Everything is supposed commutative
 - Implement actual diagram chasing
 
 * Implementation
+** Interface
 - HTML + CSS + script ?
 - Text-file + Ocaml (ou Lisp ou prolog) ?
+
+** Algorithme
+Fonctionne par étape. 
+Une étape
+1. Cherche les
+  : 0 -> - -> 
+pour en faire des
+  : 0 -> - c->
+Et symmétriquement pour la surjectivité, puis les isos.
+2. Exactise dans la mesure du possible
+  : -> @ -> 0 -> 0 ...
+se transforme en
+  : -> - -> - -> 0
+Et les simple flèches
+  : @ -> @
+se trouvent munies de noyau et conoyau
+  : 0 -> - -> - -> - -> - -> 0
+Refait la même chose verticalement
+3. Fait apparaître les flèches qui existent (dur)
+#+BEGIN_SRC plain
+
+ 0 -> - -> - -> - -> 0
+      |    |    :  
+      v    v    ;      
+ 0 -> - -> - -> - -> 0
+
+#+END_SRC
+
+** Algorithmique intelligente
+Peut être vaut-il mieux encoder ces donner autrement dans un format mathématiquement plus propice au calcul.
