@@ -1,6 +1,7 @@
 #+TITLE: DIAGRAM CHASER
 #+AUTHOR: PILLET BASILE
 #+STARTUP: indent
+#+FILETAGS: DiagramChaser
 
 * Presentation
 ** Visual
@@ -77,3 +78,8 @@ Refait la même chose verticalement
 
 ** Algorithmique intelligente
 Peut être vaut-il mieux encoder ces donner autrement dans un format mathématiquement plus propice au calcul.
+* Autre
+** TODO Logo
+- Carquois avec des flèches !
+- Chapeau à la crocodile Dundee sur un diagramme
+- Écriture de "DiagramChaser" en diagramme
