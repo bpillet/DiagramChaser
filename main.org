@@ -75,5 +75,5 @@ Refait la même chose verticalement
 
 #+END_SRC
 
-** Algorithmique intelligente
-Peut être vaut-il mieux encoder ces donner autrement dans un format mathématiquement plus propice au calcul.
+** TODO Structure de données
+Peut être vaut-il mieux encoder ces donnée autrement dans un format mathématiquement plus propice au calcul.
