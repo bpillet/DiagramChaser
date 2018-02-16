@@ -1,6 +1,7 @@
 #+TITLE: DIAGRAM CHASER
 #+AUTHOR: PILLET BASILE
 #+STARTUP: indent
+#+FILETAGS: DiagramChaser
 
 * Presentation
 ** Visual
@@ -75,5 +76,12 @@ Refait la même chose verticalement
 
 #+END_SRC
 
+
 ** TODO Structure de données
 Peut être vaut-il mieux encoder ces donnée autrement dans un format mathématiquement plus propice au calcul.
+* Autre
+** TODO Logo
+- Carquois avec des flèches !
+- Chapeau à la crocodile Dundee sur un diagramme
+- Écriture de "DiagramChaser" en diagramme
+
